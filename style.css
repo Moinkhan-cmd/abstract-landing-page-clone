@@ -1,0 +1,220 @@
+/* ----------------------------------------------------
+   RESET
+---------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------
+   NAVIGATION BAR
+---------------------------------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    line-height: 1.5;
+    padding: 30px;
+    background: black;
+    color: white;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.img1 {
+    height: 32px;
+    display: block;
+}
+
+.help {
+    font-weight: 20;
+    font-size: larger;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.auto {
+    margin-right: auto;
+    display: inline;
+}
+
+.search {
+    padding: 10px 20px 10px 16px;
+    background: #ffffff;
+    border-radius: 8px;
+    cursor: text;
+}
+
+.submit {
+    margin: 0 0 0 16px;
+    padding: 6px 22px;
+    color: #ffffff;
+    background: #191A1B;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    font-family: "GT America Standard", serif;
+}
+
+.signin {
+    font-family: "GT America Standard", serif;
+    border: 1px solid transparent;
+    color: #ffffff;
+    padding: 6px 32px;
+    background: #4C5FD5;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+.signin:hover {
+    background: #ffffff;
+    color: #191A1B;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------
+   HERO SECTION
+---------------------------------------------------- */
+.position {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.img2 {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+}
+
+.search2 {
+    display: block;
+    height: 60px;
+    width: 720px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.heading1 {
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 200px 0;
+    font-size: xx-large;
+    background: #DADBF1;
+}
+
+/* ----------------------------------------------------
+   FOOTER
+---------------------------------------------------- */
+footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 80px 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.col h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer-col a {
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+}
+
+.contact-label {
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.copy {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #cfcfcf;
+}
+
+.copy img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.copy p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* ----------------------------------------------------
+   CONTENT SECTION (6 Items)
+---------------------------------------------------- */
+section {
+    background: #191A1B;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 80px 200px;
+    font-size: 20px;
+}
+
+section > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.images {
+    height: 83px;
+    width: 83px;
+}
+
+.link1 {
+    color: #4C5FD5;
+}
